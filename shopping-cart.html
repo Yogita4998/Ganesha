@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html lang="en">
+     <head>
+	 <meta charset="UTF-8">
+	 <title>Ganesha </title>
+	 <link rel="stylesheet" type="text/css" href="ganesha.css"/>
+	  <link rel="stylesheet" type="text/css" href="shopping-cart.css"/>
+	 <style>
+	 .column5 {
+      float: left;
+      width: 33.33%;
+	  border:2px black;
+     }
+
+
+	</style>
+	 </head>
+	 <body>
+	    <ul>
+             <li><a href="home1.html">Home</a></li>
+             <li><a href="order.html">Order</a></li>
+             <li><a href="checkout.html">Checkout</a></li>
+			 <li><a href="shopping-cart.html">Shopping cart</a></li>
+			 <li><a href="contact1.html">Contact</a></li>
+            <!-- <li style="float:right"><a class="active" href="#about">About</a></li>-->
+        </ul>
+		
+		<h1>Shopping Cart</h1>   
+         <div class="shopping-cart">
+         <div class="column-labels">
+         <label class="product-image">Image</label>
+         <label class="product-price">Price</label>
+         <label class="product-quantity">Quantity</label>
+         <label class="product-removal">Remove</label>
+         <label class="product-line-price">Total</label>
+         </div>
+		<center>
+		<button type="button" class="button2" onclick="window.location.href='shopping-cart.html'">Update Cart</button>
+		<button type="button" class="button2" onclick="window.location.href=''">Empty Cart</button>
+		<button type="button" class="button2" onclick="window.location.href='home1.html'">Continue Shopping</button>
+		<button type="button" class="button2" onclick="window.location.href='checkout.html'">Go to Checkout</button>
+		</center>
+	  </body>
+</html>
